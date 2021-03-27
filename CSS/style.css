@@ -1,0 +1,279 @@
+<style>
+
+
+
+
+/*  HINNAKIRI / TEENUSED  */
+
+.content-table tbody tr {
+	background-color: ;
+
+}
+
+
+.background-container:hover {
+	background-color: rgba(256 ,256,256 , 0.6);
+	box-shadow: 10px 10px 20px white;
+}
+
+
+.background-container-nohover {
+	background-color: rgba(245,245,245,0.5);
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	box-shadow: 0px 0px 20px white;
+	}
+
+	.background-container-table-nohover {
+	background-color: rgba(245,245,245,0.5);
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	box-shadow: 0px 0px 20px white;
+	}
+
+
+
+#table-contentid {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+
+@keyframes 
+	boxshadow-start {
+		0% {box-shadow: 0 0 0 white; filter: blur(2px);}
+		40% {box-shadow: 0px 0px 20px white, 0px 0px 20px white, 0px 0px 25px black;}
+		80% {box-shadow: 0px 0px 20px white, 0px 0px 20px white, 0px 0px 25px black; filter: blur(0px);}
+		100% {box-shadow: 0px 0px 20px white, 0px 0px 20px white, 0px 0px 25px black; filter: blur(0px);}
+	}
+	
+
+
+
+
+#table-contentid tbody tr:hover {
+	background-color: rgba(256 ,256,256 , 0.9);
+	
+}
+
+#table-contentid tbody tr {
+	background-color: rgba(256 ,256,256 , 0.5);
+	font-size: 1.1em;
+	
+}
+
+
+
+
+
+.table-padding {
+	padding: 40px 40px;
+}
+
+#hinnakiri-flex-column {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+/*  KONTAKT / INFO  */
+
+#kontakt-container {
+	display: flex;
+	flex-direction: row;
+	
+}
+#info-textone {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 50px;
+	padding: 10px;
+}
+
+#kontakt-column {
+
+}
+
+
+
+.kontakt-padding {
+	padding: 10px;
+}
+
+#kontakt-form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.input-padding {
+	width: 100%;
+}
+
+.input-padding-submit {
+	width: 100%;
+	text-align: center;
+}
+
+
+/*  AVALEHT  */
+
+#header {
+	font-weight: bold;
+}
+
+#flex-header-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#nav-bar {
+	
+	padding-top: 20px;
+}
+
+.navbar-anchor {
+	color: black;
+	text-decoration: none;
+	padding: 20px;
+	
+}
+
+#nav-anchors {
+	display: flex;
+	flex-direction: row;
+
+}
+
+#logo {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#tunnuslause {
+	align-self: center;
+}
+
+
+
+#info-text-page {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+
+#info-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+#info-text-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+
+#fix {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.avaleht-flex-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.avaleht-flex-row {
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px;
+}
+
+.avaleht-row-box {
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+	margin: 20px;
+	min-width: 270px;
+	max-width: 270px;
+	
+}
+
+.ul-background {
+	background-color: transparent;
+}
+
+.avaleht-content-headers {
+	text-align: center;
+}
+
+
+#footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-top: 50px;
+	
+}
+
+.rakanishu {
+	font-family: monospace;
+	font-size: 16px;
+
+
+}
+
+#first-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+#second-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+
+
+
+
+.nav-button {
+	padding-right: 10px;
+}
+
+.navbar-anchor-end {
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+</style>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US ET">
+
+<head>
+
+<meta charset="UTF8">
+<meta name="description" content="Tommy Ehitusgrupp">
+
+<link href="CSS/style.css" rel="stylesheet" type="text/css">
+<title>Tommy Ehitusgrupp</title>
+<style type="text/css">
+	html {
+		font-size: 20px;
+	}
+
+	p {
+		font-family: 'Courier New';
+	}
+
+	body {
+		
+		background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(imgs/whitestonepaint2.jpg);
+	}
+
+	.background-container {
+		background-color: rgba(245,245,245,0.5);
+		border-radius: 10px;
+		border-style: solid;
+		border-color: black;
+		border-width: 1px;
+		box-shadow: 0 0 0 white;
+		animation-name: boxshadow-start;
+		animation-duration: 1s;
+		animation-fill-mode: forwards;
+}
+
+	@media only screen and (max-width: 800px) {
+			#flex-header-nav {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			}
+
+			#info-textone {
+			flex-direction: column;
+			}
+
+			#info-column {
+				margin-top: 20px;
+			}
+			#nav-anchors {
+			font-size: 0.8rem;
+		}
+	}
+
+
+</style>
+</head>
+
+
+<body id="bodyone" class="body">
+	<div id="flex-header-nav">
+		<div id="main-header">
+			<div id="logo" class="background-container">
+				<h1 id="header"><em>Tommy Ehitusgrupp</em></h1>
+			
+			</div>
+		</div>
+		<div id="nav-bar">
+			<div id="nav-anchors" class="background-container">
+			<p><a class="navbar-anchor" href="index.html">Avaleht</a></p>
+			<p><a class="navbar-anchor" href="hinnakiri-teenused.html">Hinnakiri/Teenused</a></p>
+			<p><a class="navbar-anchor" href="#">Kontakt/Info</a></p>
+			</div>
+		</div>
+	</div>
+		
+	<div id="info-text-page" class="background-container">
+	<h2>Kontakt/Info</h2>
+	</div>
+
+
+
+
+		
+	<div id="info-textone">
+		<div id="kontakt-column" class="background-container">
+			<div class="kontakt-padding">
+			
+			<h2>Kontakt andmed</h2>
+			
+			<h3>Tommy Ehitusgrupp OU</h3>
+			<p>reg: 14176843</p>
+			<p><address>Tallinn, Harjumaa<address></p>
+			<p></p>
+			<p>Telefon: <a style="text-decoration: none;" href="tel:37255556666">372 5555 6666</a> (e-r: 8-16)</p> 
+			<p>E-Mail: <a style="text-decoration: none;" href="mailto:info.tommyehitusgrupp@gmail.com">info.tommyehitusgrupp@gmail.com</a></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			</div>
+				
+
+
+
+			
+		</div>
+		<div id="info-column" class="background-container">
+			<div class="kontakt-padding">
+			<h1>V&#245ta meiega &#252hendust!</h1>
+
+			<form id="kontakt-form">
+				<div class="input-padding">
+					<p>Nimi</p>
+					<input required style="width: 100%;" type="text" id="name" name="name" placeholder="Sinu Nimi">
+				</div>
+				<div class="input-padding">
+					<p>E-Mail</p>
+					<input required style="width: 100%;" type="mail" name="mail" id="mail" placeholder="Sinu E-Mail">
+				</div>
+				<div class="input-padding">
+					<p>S&#245num</p>
+					<textarea required style="width: 100%;" id="s�num" placeholder="Kirjuta siia"></textarea>
+				</div>
+				<div class="input-padding-submit">
+					<button type="submit" id="submit" name="submit">Submit</button>
+				</div>
+				
+			</form>
+			</div>
+		</div>
+		
+	</div>
+		
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
