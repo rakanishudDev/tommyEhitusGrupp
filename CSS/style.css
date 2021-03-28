@@ -23,6 +23,10 @@
 	background-color: rgba(256 ,256,256 , 0.6);
 	box-shadow: 10px 10px 20px white;
 }
+.background-container3:hover {
+	background-color: rgba(256 ,256,256 , 0.6);
+	box-shadow: 10px 10px 20px white;
+}
 
 
 .background-container-nohover {
