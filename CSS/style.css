@@ -15,15 +15,26 @@
 	background-color: rgba(256 ,256,256 , 0.6);
 	box-shadow: 10px 10px 20px white;
 }
+.background-container1:hover {
+	background-color: rgba(256 ,256,256 , 0.6);
+	box-shadow: 10px 10px 20px white;
+}
+.background-container2:hover {
+	background-color: rgba(256 ,256,256 , 0.6);
+	box-shadow: 10px 10px 20px white;
+}
 
 
 .background-container-nohover {
 	background-color: rgba(245,245,245,0.5);
-	border-radius: 10px;
-	border-style: solid;
-	border-color: black;
-	border-width: 1px;
-	box-shadow: 0px 0px 20px white;
+		border-radius: 10px;
+		border-top: solid;
+		border-color: black;
+		border-width: 1px;
+		box-shadow: 0 0 0 white;
+		animation-name: boxshadow-start;
+		animation-duration: 1s;
+		animation-fill-mode: forwards;
 	}
 
 	.background-container-table-nohover {
@@ -182,6 +193,7 @@
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 50px;
+	font-size:1rem;
 }
 
 #info-text-column {
@@ -236,6 +248,7 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 	margin-top: 50px;
+	max-height: 145px;
 	
 }
 
@@ -257,6 +270,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	
 }
 
 

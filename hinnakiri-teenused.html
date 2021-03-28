@@ -35,6 +35,28 @@
 		animation-fill-mode: forwards;
 	}
 
+	.background-container1 {
+		background-color: rgba(245,245,245,0.5);
+		border-radius: 10px;
+		border-top: solid;
+		border-color: black;
+		border-width: 1px;
+		box-shadow: 0 0 0 white;
+		animation-name: boxshadow-start;
+		animation-duration: 1s;
+		animation-fill-mode: forwards;
+	}
+
+	.background-container3 {
+		background-color: rgba(245,245,245,0.5);
+		border-radius: 10px;
+		border-bottom: solid;
+		border-width: 1px;
+		box-shadow: 0 0 0 white;
+		animation-name: boxshadow-start;
+		animation-duration: 1s;
+		animation-fill-mode: forwards;
+	}
 
 
 	@media only screen and (max-width: 800px) {
@@ -56,7 +78,7 @@
 <body id="bodyone" class="body">
 	<div id="flex-header-nav">
 		<div id="main-header">
-			<div id="logo" class="background-container">
+			<div id="logo" class="background-container-nohover">
 				<h1 id="header"><em>Tommy Ehitusgrupp</em></h1>
 				
 			</div>
@@ -235,7 +257,7 @@
 		</div>
 	</div>
 
-	<div id="footer" class="background-container">
+	<div id="footer" class="background-container3">
 		
 		<div id="second-footer">
 			<div class="nav-copyright">
